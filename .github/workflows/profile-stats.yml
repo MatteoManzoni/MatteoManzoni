@@ -1,0 +1,52 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-profile-stats.mjs
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'MatteoManzoni/MatteoManzoni'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+
+      - name: Refresh aggregate statistics
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo '::error::Add PROFILE_STATS_TOKEN with access to your private PRs. The existing snapshot is preserved.'
+            exit 1
+          fi
+          node scripts/update-profile-stats.mjs
+
+      - name: Publish changed statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add README.md assets/pr-stats.json assets/pr-stats-dark.svg assets/pr-stats-light.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile PR statistics'
+          git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin HEAD:main
