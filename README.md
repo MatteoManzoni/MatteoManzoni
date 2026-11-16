@@ -19,7 +19,7 @@ Building at [Docplanner](https://github.com/Docplanner). I enjoy making infrastr
 | PRs merged | 4,774 |
 | Merged in 2026 | 3,211 |
 | Merged in the last 30 days | 1,086 |
-| PRs reviewed | 4,653 |
+| PRs reviewed | 4,656 |
 | PRs opened | 5,390 |
 | Open PRs | 298 |
 
