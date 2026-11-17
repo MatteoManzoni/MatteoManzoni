@@ -1,12 +1,16 @@
 # Profile statistics
 
-The profile uses locally generated SVG cards and a Markdown table. There is no external statistics image service, and the script requests only aggregate counts from GitHub GraphQL search: no pull request titles, repository names, or private links.
+The profile shows the classic Dracula GitHub stats/rating, language, and trophy cards, followed by compact PR badges. Definitions and implementation details stay in this document.
+
+The classic cards use public statistics. Their SVGs are downloaded into this repository from [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended) and a [documented GitHub Profile Trophy mirror](https://github.com/ryo-ma/github-profile-trophy#load-balancing-endpoints). The original providers are fallbacks. If both providers are unavailable, the previous image is retained. No credentials are sent to these services. The stats card hides its public-only PR row because the badges provide the combined PR totals.
+
+The PR badges include public and accessible private work. The script requests only aggregate counts from GitHub GraphQL search: no pull request titles, repository names, or private links. Only the resulting badge labels and counts are sent to Shields.io.
 
 ## Refreshing
 
-Run `node scripts/update-profile-stats.mjs` with Node.js 22 or newer and GitHub CLI authenticated as `MatteoManzoni`. Alternatively, run **Refresh profile statistics** from the repository's Actions tab.
+Run `node scripts/update-profile-stats.mjs` with Node.js 22 or newer and GitHub CLI authenticated as `MatteoManzoni`. Run `node scripts/update-profile-cards.mjs` to refresh the public card images. Alternatively, run **Refresh profile statistics** from the repository's Actions tab.
 
-The workflow runs daily at 06:23 UTC. It reads statistics using `PROFILE_STATS_TOKEN` and publishes changes using the separate, repository-scoped `GITHUB_TOKEN`. It commits only the README statistics block, two cards, and the aggregate JSON snapshot.
+The workflow runs daily at 06:23 UTC. It reads PR statistics using `PROFILE_STATS_TOKEN` and publishes changes using the separate, repository-scoped `GITHUB_TOKEN`. It commits only the README badge block, three classic cards, and the aggregate JSON snapshot.
 
 ## Private repository access
 

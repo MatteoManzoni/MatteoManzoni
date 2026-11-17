@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/update-profile-stats.mjs
+      - scripts/update-profile-cards.mjs
       - .github/workflows/profile-stats.yml
 
 permissions:
@@ -38,11 +39,14 @@ jobs:
           fi
           node scripts/update-profile-stats.mjs
 
+      - name: Refresh classic profile cards
+        run: node scripts/update-profile-cards.mjs
+
       - name: Publish changed statistics
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add README.md assets/pr-stats.json assets/pr-stats-dark.svg assets/pr-stats-light.svg
+          git add README.md assets/pr-stats.json assets/github-stats.svg assets/top-languages.svg assets/trophies.svg
           if git diff --cached --quiet; then
             exit 0
           fi

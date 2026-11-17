@@ -2,34 +2,19 @@
 
 Building at [Docplanner](https://github.com/Docplanner). I enjoy making infrastructure, automation, and the connected home work better.
 
-## Shipping & reviewing
+## GitHub
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pr-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pr-stats-light.svg">
-  <img alt="My pull request activity across public and accessible private repositories. Exact counts and definitions are available below." src="./assets/pr-stats-light.svg" width="720">
-</picture>
+![GitHub stats and rating](./assets/github-stats.svg)
+![Most used languages](./assets/top-languages.svg)
+
+![GitHub trophies](./assets/trophies.svg)
 
 <!-- profile-stats:start -->
-<details>
-<summary>Counts, coverage, and definitions · updated 2026-11-17 UTC</summary>
-
-| Metric | Count |
-| :--- | ---: |
-| PRs merged | 4,835 |
-| Merged in 2026 | 3,272 |
-| Merged in the last 30 days | 1,145 |
-| PRs reviewed | 4,685 |
-| PRs opened | 5,462 |
-| Open PRs | 306 |
-
-These totals combine public repositories and private repositories accessible to the statistics credential at refresh time. Only aggregate counts are published.
-
-Merged and opened PRs are authored by me. Reviewed PRs count distinct pull requests I reviewed, excluding my own; multiple reviews on the same PR count once. The 30-day window covers 2026-10-19 through 2026-11-17, inclusive, using UTC dates.
-
-Source: [GitHub pull request search](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests). [How the refresh works](./docs/profile-stats.md).
-
-</details>
+<!-- Updated 2026-11-17 UTC -->
+![PRs merged: 4,835](https://img.shields.io/badge/PRs%20merged-4%2C835-bd93f9?style=flat-square&labelColor=282a36)
+![Merged in 2026: 3,272](https://img.shields.io/badge/Merged%20in%202026-3%2C272-50fa7b?style=flat-square&labelColor=282a36)
+![Merged last 30 days: 1,145](https://img.shields.io/badge/Merged%20last%2030%20days-1%2C145-8be9fd?style=flat-square&labelColor=282a36)
+![PRs reviewed: 4,685](https://img.shields.io/badge/PRs%20reviewed-4%2C685-ffb86c?style=flat-square&labelColor=282a36)
 <!-- profile-stats:end -->
 
 ## Things I build
