@@ -5,11 +5,11 @@
   "windowStart": "2026-10-19",
   "scope": "Public and accessible private repositories",
   "counts": {
-    "merged": 4835,
-    "created": 5462,
-    "reviewed": 4685,
-    "mergedYear": 3272,
-    "mergedRecent": 1145,
-    "open": 306
+    "merged": 4870,
+    "created": 5484,
+    "reviewed": 4694,
+    "mergedYear": 3307,
+    "mergedRecent": 1180,
+    "open": 291
   }
 }

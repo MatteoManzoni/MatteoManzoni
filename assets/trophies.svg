@@ -65,7 +65,12 @@
     #MultiLanguage-rank-progress{
       animation: MultiLanguageRankAnimation 1s forwards ease-in-out;
     }
-    </style>
+
+    * { animation: none !important; }
+    .stagger { opacity: 1 !important; }
+    .rank-text { transform: translate(-5px, 5px) scale(1); }
+
+  </style>
     <rect
       x="15"
       y="101"
@@ -170,7 +175,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
 
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#ff79c6">Commits</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#f8f8f2">God Committer</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#f8f8f2">10.4kpt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#f8f8f2">10.5kpt</text>
 
     <style>
     @keyframes CommitsRankAnimation {
