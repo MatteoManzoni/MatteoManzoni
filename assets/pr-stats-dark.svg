@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
   <title id="title">Matteo's pull request activity</title>
-  <desc id="desc">PRs merged: 4,774. Merged in 2026: 3,211. Merged in the last 30 days: 1,086. PRs reviewed: 4,656. PRs opened: 5,390. Open PRs: 298. Updated 2026-11-16 UTC. Public and accessible private repositories.</desc>
+  <desc id="desc">PRs merged: 4,835. Merged in 2026: 3,272. Merged in the last 30 days: 1,145. PRs reviewed: 4,685. PRs opened: 5,462. Open PRs: 306. Updated 2026-11-17 UTC. Public and accessible private repositories.</desc>
   <rect x="0.5" y="0.5" width="719" height="469" rx="18" fill="#161b22" stroke="#303b4b"/>
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
     <rect x="28" y="29" width="5" height="48" rx="2.5" fill="#9e91ff"/>
@@ -9,39 +9,39 @@
     <g transform="translate(28,106)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">PRs merged</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#9e91ff">4,774</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#9e91ff">4,835</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">All time</text>
     </g>
 <g transform="translate(372,106)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">Merged in 2026</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">3,211</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">3,272</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">Year to date</text>
     </g>
 <g transform="translate(28,216)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">Merged in the last 30 days</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">1,086</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">1,145</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">Including today · UTC</text>
     </g>
 <g transform="translate(372,216)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">PRs reviewed</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">4,656</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">4,685</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">Distinct PRs · excluding my own</text>
     </g>
 <g transform="translate(28,326)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">PRs opened</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">5,390</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">5,462</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">All time</text>
     </g>
 <g transform="translate(372,326)">
       <rect width="320" height="96" rx="12" fill="#1d2430"/>
       <text x="18" y="24" font-size="16" fill="#abb8cb">Open PRs</text>
-      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">298</text>
+      <text x="18" y="63" font-size="38" font-weight="700" fill="#f0f6fc">306</text>
       <text x="18" y="83" font-size="12" fill="#abb8cb">Currently open</text>
     </g>
-    <text x="28" y="453" font-size="12" fill="#abb8cb">Updated 2026-11-16 UTC · Merged PRs authored by @MatteoManzoni</text>
+    <text x="28" y="453" font-size="12" fill="#abb8cb">Updated 2026-11-17 UTC · Merged PRs authored by @MatteoManzoni</text>
   </g>
 </svg>
