@@ -1,15 +1,15 @@
 {
   "username": "MatteoManzoni",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "year": 2026,
-  "windowStart": "2026-10-21",
+  "windowStart": "2026-10-22",
   "scope": "Public and accessible private repositories",
   "counts": {
-    "merged": 4982,
-    "created": 5632,
-    "reviewed": 4729,
-    "mergedYear": 3419,
-    "mergedRecent": 1281,
-    "open": 320
+    "merged": 5034,
+    "created": 5695,
+    "reviewed": 4749,
+    "mergedYear": 3471,
+    "mergedRecent": 1321,
+    "open": 329
   }
 }
