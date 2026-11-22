@@ -10,11 +10,11 @@ Building at [Docplanner](https://github.com/Docplanner). I enjoy making infrastr
 ![GitHub trophies](./assets/trophies.svg)
 
 <!-- profile-stats:start -->
-<!-- Updated 2026-11-21 UTC -->
-![PRs merged: 5,079](https://img.shields.io/badge/PRs%20merged-5%2C079-bd93f9?style=flat-square&labelColor=282a36)
-![Merged in 2026: 3,516](https://img.shields.io/badge/Merged%20in%202026-3%2C516-50fa7b?style=flat-square&labelColor=282a36)
-![Merged last 30 days: 1,360](https://img.shields.io/badge/Merged%20last%2030%20days-1%2C360-8be9fd?style=flat-square&labelColor=282a36)
-![PRs reviewed: 4,761](https://img.shields.io/badge/PRs%20reviewed-4%2C761-ffb86c?style=flat-square&labelColor=282a36)
+<!-- Updated 2026-11-22 UTC -->
+![PRs merged: 5,165](https://img.shields.io/badge/PRs%20merged-5%2C165-bd93f9?style=flat-square&labelColor=282a36)
+![Merged in 2026: 3,602](https://img.shields.io/badge/Merged%20in%202026-3%2C602-50fa7b?style=flat-square&labelColor=282a36)
+![Merged last 30 days: 1,317](https://img.shields.io/badge/Merged%20last%2030%20days-1%2C317-8be9fd?style=flat-square&labelColor=282a36)
+![PRs reviewed: 4,769](https://img.shields.io/badge/PRs%20reviewed-4%2C769-ffb86c?style=flat-square&labelColor=282a36)
 <!-- profile-stats:end -->
 
 ## Things I build
